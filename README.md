@@ -9,6 +9,9 @@
 <p align="center">
     ✨ The Kubernetes Goat is designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security 🚀
 </p>
+<h2 align="center">
+  This fork is designed for <a href="https://github.com/madhuakula/kubernetes-goat/issues/115">exec errors due to ARM architecture</a> (M-series macs and ARM64 devices e.g. rpi), please utilise the <a href="https://github.com/madhuakula/kubernetes-goat/">main project</a> if running on x64/x86
+</h2>
 
 <p align="center">
     🙌 Refer to <b><a href="https://madhuakula.com/kubernetes-goat">https://madhuakula.com/kubernetes-goat</a></b> for the guide 📖
