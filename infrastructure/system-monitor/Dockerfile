@@ -6,11 +6,11 @@ RUN apt-get update && apt-get install -y htop \
     cd /tmp; \
     arch=`uname -m` && \
     if [ $arch = "aarch64" ] || [ $arch = "arm64" ]; then \
-        GOTTY="gotty_2.0.0-alpha.3_linux_arm.tar.gz"; \
+        GOTTY="gotty_v1.6.0_linux_arm64.tar.gz"; \
     else \
-        GOTTY="gotty_2.0.0-alpha.3_linux_amd64.tar.gz"; \
+        GOTTY="gotty_v1.6.0_linux__amd64.tar.gz"; \
     fi; \
-    wget https://github.com/yudai/gotty/releases/download/v2.0.0-alpha.3/${GOTTY} \
+    wget https://github.com/sorenisanerd/gotty/releases/download/v1.6.0/${GOTTY} \
     && tar -xvzf ${GOTTY}; mv gotty /usr/local/bin/gotty
 
 EXPOSE 8080
